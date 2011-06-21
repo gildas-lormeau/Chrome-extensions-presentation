@@ -3,7 +3,7 @@
 - Il est recommandé d'installer ces extensions avant de lancer la présentation
 - Pour installer chacune d'entre-elles : 
  * ouvrir la page chrome://extensions dans chrome, 
- * cliquer sur le lien "Mode d�veloppeur" en haut a droite de la page
+ * cliquer sur le lien "Mode développeur" en haut a droite de la page
  * cliquer sur le bouton "Charger l'extension non empaquetée..."
  * sélectionner le répertoire WebContent
 - Les extensions nommées "notes-part-xx" constituent les étapes de la démo intégrée dans la présentation (cf bouton "Demo")
