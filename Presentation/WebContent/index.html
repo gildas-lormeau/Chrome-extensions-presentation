@@ -234,9 +234,38 @@
 					font-size: 22pt;
 				}
 				
+				@-webkit-keyframes pulse {
+				 0% {
+				   color: gray;
+				 }
+				 100% {
+				   color: black;
+				 }
+				}
+
+				.hint {
+					position: absolute;
+					right: 30px;
+					top: 30px;
+					color: gray;
+					font-size: 16pt;
+					padding : 10px;
+					padding-bottom : 12px;
+					line-height: normal;
+				}
+
+				.current .hint {
+					-webkit-animation-name: pulse;
+					-webkit-animation-duration: 2s;
+					-webkit-animation-direction: alternate;
+					-webkit-animation-timing-function: ease-in-out;
+					-webkit-animation-iteration-count: infinite;
+				}
+
 			</style>
 			<section class="middle">
 				<a class="logo-softeam" href="http://www.softeam.fr/"><img src="images/softeam_logo.png"></a>
+				<span class="hint">Appuyez sur Espace pour avancer</span>
             	<hgroup> 
               		<h1>Extensions Chrome</h1>              
 					<h2>&amp; HTML5</h2>					
